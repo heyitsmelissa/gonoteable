@@ -18,7 +18,9 @@ define([
 
 	HT.on('initialize:after', function() {
 		if (Backbone.history) {
-			Backbone.history.start();
+			require(["apps/notes/notes_app"], function(){
+				Backbone.history.start();
+			});
 		}
 	});	
 

@@ -1,0 +1,34 @@
+.search {
+	background-color:$ht-lt-yellow;
+	color:$ht-lt-brown;
+	height:$default-header-height;
+}
+
+.note-wrapper {
+	background-clip:content-box;
+	background-color: $ht-yellow;
+	box-sizing: border-box;
+	float:left;
+	height:140px;
+	padding:10px 10px;
+	width:50%;
+
+}
+
+.note {
+	color: $ht-brown;
+	.note-title {
+		font-size:14px;
+		font-weight: bold;
+	}
+
+	.note-content {
+		font-size: 12px;
+	}
+
+}
+
+.note p {
+	margin:0;
+	padding:0;
+}

@@ -1,0 +1,38 @@
+$ht-brown: #5b4d50;
+$ht-lt-brown: #b8b29e;
+$ht-yellow: #f5f8ce;
+$ht-lt-yellow: #dadeba;
+$ht-orange: #fc5d0d;
+$ht-green: #aebaab;
+
+$default-header-height: 50px;
+
+body {
+	background-color: $ht-green;
+}
+
+.action-header {
+	background-color: $ht-brown;
+	height: $default-header-height;
+}
+
+.row {
+	width:100%;
+	clear:both;
+}
+
+.left {
+	float:left;
+}
+
+.right {
+	float:right;
+}
+
+ul {
+	margin:0;
+	padding:0;
+}
+li {
+	list-style: none;
+}
