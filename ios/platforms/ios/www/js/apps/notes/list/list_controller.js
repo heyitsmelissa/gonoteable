@@ -19,9 +19,7 @@ define([
 
 				HT.mainRegion.show(this.layout);
 
-				this.listenTo(this.layout, "notes:new", function(){
-					console.log('new');
-				});
+				this.listenTo(this.layout, "notes:new", this.openCamera);
 
 			},
 
@@ -36,7 +34,37 @@ define([
 			notesRegion: function(){
 				var notesView = this.getNotesView();
 				this.layout.notesRegion.show(notesView);
-			}
+			},
+
+			openCamera: function(){
+				navigator.camera.getPicture( this.cameraSuccess, this.cameraError, {} );
+			},
+
+			cameraSuccess: function(image){
+				var options = new FileUploadOptions();
+
+				var params = {
+					userId: '1234'
+					//userid
+				};
+
+				options.params = params;
+
+				var ft = new FileTransfer();
+				ft.upload(image, 'http://api.gonoteable.com/uploads', this.uploadSuccess, this.uploadError)
+			},
+
+			cameraError: function(message){
+				alert(message);
+			},
+
+			uploadSuccess: function(resp){
+
+			},
+
+			uploadError: function(error){
+
+			},
 		});
 
 	});
