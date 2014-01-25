@@ -1,0 +1,26 @@
+body {
+	background-color: #aebaab;
+	margin: 0;
+	padding: 0;
+}
+.back {
+	color: #382809;
+	font-family: Arial serif;
+	font-size: 36px;
+}
+.circle-wrapper {
+	width: 33%;
+	float: left;
+	box-sizing:border-box;
+	padding:10px;
+}
+.circle {
+	border-radius: 50%;
+	width: 100%;
+	/*height: 33%; */
+	color: #382809;
+	font-size: 20px;
+	line-height: 100px;
+	text-align: center;
+	background-color: #fff1d7;
+}
