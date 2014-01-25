@@ -1,2 +1,3 @@
 *.sass-cache*
 ios/platforms/ios/HT.xcodeproj/
+web/api/runtime/
