@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>68D35624-E27D-4C50-8933-6791FE3BDC57</string>
+	<key>IDESourceControlProjectName</key>
+	<string>HT</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>326535A4-65D9-403D-BB67-28AB2615E271</key>
+		<string>ssh://github.com/heyitsmelissa/gonoteable.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ios/platforms/ios/HT.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>326535A4-65D9-403D-BB67-28AB2615E271</key>
+		<string>../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/heyitsmelissa/gonoteable.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>326535A4-65D9-403D-BB67-28AB2615E271</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>326535A4-65D9-403D-BB67-28AB2615E271</string>
+			<key>IDESourceControlWCCName</key>
+			<string>noteable</string>
+		</dict>
+	</array>
+</dict>
+</plist>
