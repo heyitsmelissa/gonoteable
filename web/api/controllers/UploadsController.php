@@ -4,8 +4,12 @@ class UploadsController extends ApiController
 {
 	public function doCreate()
 	{
+		if ( $_FILES ) {
 
-		
+			move_uploaded_file($_FILES['photo']['tmp_name'], '../files/'.$_FILES['photo']['name']);
+			// $new_file_name = md5($_FILES['photo']['tmp_name'].microtime());
+		}
+
 		// $url = 'https://noteable.firebaseio.com/note.json';
 		// $data = array(
 		// 	'text'=>'1234',
